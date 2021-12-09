@@ -14,7 +14,23 @@ def help(updater,context):
 
 def add_group(update: Update, context: CallbackContext):
     for member in update.message.new_chat_members:
-        update.message.reply_text(f'👋Hello {member.full_name} , Welcome to ln Support\n\n💖Thank💖You💖For💖Joining💖')
+        update.message.reply_text(f'❯────「⭕️❗️M-D-U❗️⭕️  」────❮ 
+
+➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️
+
+ᕼEY I'M ᗪᗴᗩᗪᑭOOᒪ👋🏻😝 {member.full_name} , ᗯᗴᒪᑕOᗰᗴ TO "ᗰ-ᗪ-ᑌ"😽
+
+𝕁𝕆𝕀ℕ 𝕆𝕌ℝ 𝕆𝔽𝔽𝕀ℂ𝕀𝔸𝕃 ℂℍ𝔸ℕℕ𝔼𝕃𝕊 😻😽
+
+╔🍿𝙲𝙷𝙰𝙽𝙽𝙴𝙻'𝚂- @DC_MARVEL_UPDATES
+
+-[]
+
+╚🍿𝙲𝙷𝙰𝙽𝙽𝙴𝙻'𝚂-@DC_MARVEL_COMICSS
+
+-[]
+
+╚🍿𝙲𝙷𝙰𝙽𝙽𝙴𝙻'𝚂- @CinemaArcade\n\n')
 
 add_group_handle = MessageHandler(Filters.status_update.new_chat_members, add_group)
 updater.dispatcher.add_handler(add_group_handle)
